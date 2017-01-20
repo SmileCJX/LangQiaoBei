@@ -1,0 +1,18 @@
+package basic;
+
+public class Basic_02 {
+	public static void main(String[] args) {
+		for(int a1=0; a1<2; a1++){
+			for(int a2=0; a2<2; a2++){
+				for(int a3=0; a3<2; a3++){
+					for (int a4=0; a4<2; a4++){
+						for(int a5=0; a5<2; a5++){
+							StringBuffer sb = new StringBuffer();
+							System.out.println(sb.append(a1).append(a2).append(a3).append(a4).append(a5));
+						}
+					}
+				}
+			}
+		}
+	}
+}
